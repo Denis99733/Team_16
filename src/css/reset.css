@@ -50,7 +50,7 @@ img {
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--blue-font, #0A224A);
-  background-color: var(--primary-white-color: #FFFFFF);
+  background-color: var(--primary-white-color, #FFFFFF);
 } 
 
 
