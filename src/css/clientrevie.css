@@ -2,6 +2,8 @@
 .clients-reviews  { 
     padding-top: 64px;
     padding-bottom: 64px;
+    background: var(--light-blue, #F7FAFF);
+
     }
     
     .clients-reviews-title{  
@@ -128,11 +130,9 @@
     }
     }
     
-    @media screen and (min-width:1158px)  {
+    @media screen and (min-width:1440px)  {
     .container {
-    max-width: 1128px;
-    padding-left: 15px;
-    padding-right: 15px;
+    max-width: 1440px;
     }  
     
     .clients-reviews  { 
