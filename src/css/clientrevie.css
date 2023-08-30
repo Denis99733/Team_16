@@ -88,8 +88,7 @@
     }
     
     .clients-reviews  { 
-    padding-top: 100px;
-    padding-bottom: 96px;
+    padding: 0;
     }
     
     .clients-reviews-title{
@@ -132,13 +131,13 @@
     }
     
     @media screen and (min-width:1440px)  {
-    .container {
+    /* .container {
     max-width: 1440px;
-    }  
+    }   */
     
-    .clients-reviews  { 
-    padding-top: 100px;
-    padding-bottom: 100px;
+    .clients-reviews .container  { 
+    max-width: 1440px;  
+    padding: 100px 60px;
     }
     
     .clients-reviews-list {

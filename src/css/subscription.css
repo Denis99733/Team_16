@@ -3,7 +3,6 @@
   margin: 0 auto;
 }
 .subscription {
-  padding-top: 64px;
   padding-bottom: 64px;
 }
 .subscribe-container {
@@ -172,17 +171,18 @@
   }
 }
 @media screen and (min-width: 1440px) {
-  .container {
+  .subscription .container {
     max-width: 1440px;
-    padding: 100px 172px 86px 172px;
+    padding: 0 172px 86px 172px;
+    gap: 100px;
   }
   .subscription {
     padding-top: 0;
     padding-bottom: 0;
   }
-  .subscribe-container {
+  /* .subscribe-container {
     gap: 100px;
-  }
+  } */
   .section-title {
     margin-bottom: 32px;
   }
