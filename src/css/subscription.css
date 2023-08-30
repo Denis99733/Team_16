@@ -2,13 +2,12 @@
   width: 100%;
   margin: 0 auto;
 }
-
 .subscription {
   padding-top: 64px;
   padding-bottom: 64px;
 }
 .subscribe-container {
- 
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -132,9 +131,7 @@
 .product-pic {
   max-width: 343px;
 }
-
 /* ? MEDIA */
-
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
@@ -173,7 +170,6 @@
   .product-pic {
     max-width: 704px;
   }
- 
 }
 @media screen and (min-width: 1440px) {
   .container {
@@ -189,22 +185,13 @@
   }
   .section-title {
     margin-bottom: 32px;
-   }
-   .subscribe-label {
+  }
+  .subscribe-label {
     height: 52px;
-   }
-   .subscribe-btn {
+  }
+  .subscribe-btn {
     height: 52px;
-   }
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  }
   .product-pic {
     max-width: 460px;
   }
