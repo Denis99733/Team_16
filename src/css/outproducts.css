@@ -88,9 +88,9 @@
 
 /*------------------------DESKTOP 1440px------------------------*/
 
-@media screen and (min-width: 1352px) {
-  .container {
-    max-width: 1352px;
+@media screen and (min-width: 1440px) {
+  .products .container {
+    max-width: 1440px;
     padding: 0 60px;
   }
 

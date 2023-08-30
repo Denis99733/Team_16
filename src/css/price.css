@@ -103,12 +103,15 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .container {
+  .price .container {
     max-width: 1440px;
+    padding: 0 172px;
   }
 
   .price {
-    padding: 0 172px;
+    padding-top: 100px;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .price-list-art {
