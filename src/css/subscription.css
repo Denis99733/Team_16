@@ -1,8 +1,5 @@
-.container {
-  width: 100%;
-  margin: 0 auto;
-}
 .subscription {
+  padding-top: 64px;
   padding-bottom: 64px;
 }
 .subscribe-container {
@@ -10,6 +7,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  margin: 0 auto;
 }
 .form-container {
   display: flex;
@@ -18,7 +16,7 @@
   justify-content: center;
   gap: 2.5px;
 }
-.section-title {
+.subscribe-title {
   text-align: center;
   font-size: 28px;
   font-weight: 400;
@@ -130,24 +128,24 @@
 .product-pic {
   max-width: 343px;
 }
+
 /* ? MEDIA */
+
 @media screen and (min-width: 768px) {
-  .container {
+  .subscribe-container {
     max-width: 768px;
     padding: 0 32px;
+    gap: 64px;
   }
   .subscription {
     padding-top: 100px;
     padding-bottom: 100px;
   }
-  .subscribe-container {
-    gap: 64px;
-  }
   .form-container {
     width: 536px;
     align-items: flex-start;
   }
-  .section-title {
+  .subscribe-title {
     text-align: start;
     font-size: 32px;
     line-height: 1.4;
@@ -171,19 +169,16 @@
   }
 }
 @media screen and (min-width: 1440px) {
-  .subscription .container {
+  .subscribe-container {
     max-width: 1440px;
-    padding: 0 172px 86px 172px;
+    padding: 100px 172px 86px 172px;
     gap: 100px;
   }
   .subscription {
     padding-top: 0;
     padding-bottom: 0;
   }
-  /* .subscribe-container {
-    gap: 100px;
-  } */
-  .section-title {
+  .subscribe-title {
     margin-bottom: 32px;
   }
   .subscribe-label {
