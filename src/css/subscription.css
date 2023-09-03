@@ -1,5 +1,4 @@
 .subscription {
-  padding-top: 64px;
   padding-bottom: 64px;
 }
 .subscribe-container {
@@ -171,7 +170,7 @@
 @media screen and (min-width: 1440px) {
   .subscribe-container {
     max-width: 1440px;
-    padding: 100px 172px 86px 172px;
+    padding: 0 172px 86px 172px;
     gap: 100px;
   }
   .subscription {
