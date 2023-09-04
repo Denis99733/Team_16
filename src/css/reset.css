@@ -9,8 +9,6 @@ p {
   margin: 0;
 }
 
-
-
 ul {
   margin: 0;
   padding: 0;
@@ -31,8 +29,8 @@ img {
   max-width: 100%;
   height: auto;
 }
-.container{
-  max-width: 375px; 
+.container {
+  max-width: 375px;
   padding: 0 16px;
 }
 .visually-hidden {
@@ -49,13 +47,6 @@ img {
 }
 body {
   font-family: 'Roboto', sans-serif;
-  color: var(--blue-font, #0A224A);
-  background-color: var(--primary-white-color: #FFFFFF);
-} 
-
-
-
-
-
-
-
+  color: var(--blue-font, #0a224a);
+  background-color: var(--primary-white-color, #ffffff);
+}

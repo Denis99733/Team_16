@@ -1,5 +1,7 @@
 .price {
-  background-color: #ffffff;
+}
+
+.price-container {
   margin: 0 auto;
 }
 
@@ -71,24 +73,13 @@
 .price-list-amount {
   display: flex;
   text-align: right;
-  font-size: 16px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.5;
 }
 
-@media screen and (min-width: 375px) {
-  .container {
-    max-width: 375px;
-  }
-}
-
 @media screen and (min-width: 768px) {
-  .container {
+  .price-container {
     max-width: 768px;
-  }
-
-  .price {
     padding: 0 32px;
   }
 
@@ -110,16 +101,5 @@
 
   .price {
     padding-top: 100px;
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .price-list-art {
-    font-size: 32px;
-    line-height: 1.41;
-  }
-
-  .price-list-amount {
-    font-size: 18px;
   }
 }
