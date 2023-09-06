@@ -7,9 +7,13 @@
   padding-top: 140px;
 }
 
+.hero-container {
+  margin: 0 auto;
+}
+
 @media (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
   .hero {
     background-image: url(../img/hero-mob@2x.jpg);
   }
@@ -32,7 +36,7 @@
 }
 
 .hero-subscribe {
-  color: var(--white, #FFFFFF);
+  color: var(--white, #ffffff);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -42,22 +46,24 @@
   justify-content: center;
   align-items: center;
   display: flex;
-  background-color: #0A224A;
+  background-color: #0a224a;
   transition: background-color 250ms var(--transition);
-
 }
 
 .hero-subscribe:hover,
 .hero-subscribe:focus {
   outline: transparent;
   background-color: #061835;
-
 }
 
 /*--------------------------------TAB 768px--------------------------------*/
 
 @media screen and (min-width: 768px) {
-  .hero>.container {
+  .hero-container {
+    max-width: 768px;
+  }
+
+  .hero > .container {
     background-image: url(../img/hero-product-tab-1.jpg),
       url(../img/hero-product-tab-2.jpg);
     background-size: 308px 329px, 364px 531px;
@@ -66,9 +72,9 @@
   }
 
   @media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-    .hero>.container {
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero > .container {
       background-image: url(../img/hero-product-tab-1@2x.jpg),
         url(../img/hero-product-tab-2@2x.jpg);
     }
@@ -90,7 +96,6 @@
     margin-bottom: 30px;
     font-size: 18px;
     max-width: 312px;
-
   }
 
   .hero-subscribe {
@@ -103,7 +108,7 @@
 /*--------------------------------DESK 1440px--------------------------------*/
 
 @media screen and (min-width: 1440px) {
-  .hero>.container {
+  .hero > .container {
     background-image: url(../img/hero-product-desk-1.jpg),
       url(../img/hero-product-desk-2.jpg), url(../img/hero-product-desk-3.jpg);
     background-size: 310px 329px, 648px 530px, 312px, 337px;
@@ -113,11 +118,12 @@
   }
 
   @media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-    .hero>.container {
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero > .container {
       background-image: url(../img/hero-product-desk-1@2x.jpg),
-        url(../img/hero-product-desk-2@2x.jpg), url(../img/hero-product-desk-3@2x.jpg);
+        url(../img/hero-product-desk-2@2x.jpg),
+        url(../img/hero-product-desk-3@2x.jpg);
     }
   }
 
@@ -132,7 +138,7 @@
 
   .hero-subscribe-container {
     margin-left: 1041px;
-      margin-right: 0;
+    margin-right: 0;
   }
 
   /* .hero-text {
